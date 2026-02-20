@@ -5,7 +5,7 @@ public class Demo2{
 		System.out.println(names[0]);
 		System.out.println(names[3]);
 		
-	// for loop
+	//for loop
 		
 		for(int i=0;i<=4;i++) {
 			System.out.println(names[i]);
