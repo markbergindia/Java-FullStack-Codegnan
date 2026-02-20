@@ -25,7 +25,6 @@ public class StudentConstructor {
         this.name = name;
         this.age = age;  // validation
     }
-
     // Getter for name
     public String getName() {
         return name;
@@ -37,6 +36,7 @@ public class StudentConstructor {
     }
 
     // Getter for age
+    
     public int getAge() {
         return age;
     }
