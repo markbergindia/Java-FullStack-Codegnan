@@ -13,7 +13,7 @@ public class TwoSum{
 //			}
 //		System.out.println();
 //		}	                                                                   
-//	}
+//	} //time complexity = O(n*2)
 	
 	public static void main(String []args) {
 		//two pointer appproach
@@ -29,11 +29,13 @@ public class TwoSum{
 				right--;
 			}else if(sum1<target) {
 				left++;
-				System.out.println(arr[left]+ " "+arr[right]);
 			}else {
 				right--;
 			}
 			System.out.println();
 		}	
-	}	
+	}	// time complexity : O(nlogn)
+	
+	
+	
 }
