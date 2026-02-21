@@ -8,10 +8,7 @@ public class CheckArrayIsSorted{
 			if(arr[i]>arr[i+1] ){
 				isSorted=false;
 				break;
-			}
-			
-			
-			
+			}	
 		}
 		if(isSorted) {
 			System.out.println("Sorted array");
