@@ -1,0 +1,21 @@
+Abstraction means hiding internal implementation details and showing only the essential features.
+
+concrete methods : a method with implementation
+
+// abstracr methods
+
+Abstract methods are the methods without body or implementation.
+eg : public void displayCarDetails();
+
+
+syntax:
+
+abstract classname{}
+
+// abstract keyword is used to create an abstract class
+
+in abstract classes if you want to create an abstract method , we use abstract keword :
+
+syntax :
+
+accessmodifier abstract returntype methodname();
