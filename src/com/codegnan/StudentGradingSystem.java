@@ -1,3 +1,4 @@
+
 package com.codegnan;
 import java.util.*;
 import java.util.Scanner;
@@ -26,6 +27,7 @@ public class StudentGradingSystem{
 			int sub2=sc.nextInt();
 			System.out.println("Enter marks of sub3: ");
 			int sub3=sc.nextInt();
+			
 			
 			sc.nextLine();
 			
@@ -59,7 +61,9 @@ public class StudentGradingSystem{
 		double classAverage = classTotalpercentage / n;
 		
 		//Display report 
-		System.out.println(" CLASS STUDENTS RESULTS ")
+		System.out.println("===============================================================");
+		System.out.println("================ CLASS STUDENTS RESULTS ================");
+		System.out.println("=================================================================");
 ;
 		System.out.printf("%-20s %-15s %-15s %-10s\n", "Student Name", "Total Marks", "Percentage", "Grade");
 		System.out.println();
