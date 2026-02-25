@@ -12,6 +12,8 @@ public class ShapeTest {
 		System.out.println("Description: "+ rectangle.getDescription());
 		System.out.println();
 		
+//		polymorphism
+		
 		Shape shape1 = new Circle("Green", 7.0);
 		Shape shape2 = new Rectangle("Yellow", 8.0 ,6.0);
 		

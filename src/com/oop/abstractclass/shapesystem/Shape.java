@@ -21,7 +21,7 @@ public abstract class Shape {
 	}
 	
 	public String getDescription() {
-		return "A" + color + " " + name;
+		return "A " + color + " " + name;
 		
 	}
 	
