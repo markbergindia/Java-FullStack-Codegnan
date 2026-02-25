@@ -10,7 +10,6 @@ public class SortNumbers {
 		int arr [] = {23,49,22,36};
 		System.out.println("before sorting....");
 		printArray(arr);
-		System.out.println();
 		
 		for(int i=0;i<arr.length-1;i++) {
 			for(int j=0;j<arr.length-1-i;j++) {
@@ -19,13 +18,12 @@ public class SortNumbers {
 				if(last1>last2 || (last1==last2) && arr[j]>arr[j+1] ){
 					int temp = arr[j];
 					arr[j]=arr[j+1];
-					arr[j+1]=temp;
-					
+					arr[j+1]=temp;				
 				}
 			}
 		}
 		System.out.println("After sorting.....");
 		printArray(arr);
-		
+	
 	}
 }

@@ -51,7 +51,7 @@ public class DebitCardPayment extends Payment {
         
         accountBalance = accountBalance - getAmount();
         System.out.println("Processing Debit Card Payment...");
-        System.out.println(accountBalance);
+        System.out.println();
         return true;
     }
 }
