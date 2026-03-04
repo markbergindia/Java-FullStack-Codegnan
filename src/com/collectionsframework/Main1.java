@@ -5,5 +5,4 @@ public class Main1 {
 		MultiPrinter <Integer, String> mp = new MultiPrinter<>(3,"codegnan");
 		mp.print();
 	}
-
 }
