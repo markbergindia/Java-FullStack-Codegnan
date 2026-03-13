@@ -3,7 +3,7 @@
 Welcome to my Daily Java Learning Repository.  
 This repository contains my daily Java notes, coding practice, and problem-solving exercises.
 
-The goal of this repository is to strengthen my understanding of Core Java, Data Structures, and Algorithms through consistent practice.
+The goal of this repository is to strengthen my understanding of Core Java, Data Structures, and Algorithms through consistent practice. 
 
 ------------------------------------------------------------
 
